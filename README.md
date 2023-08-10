@@ -1,2 +1,2 @@
 # pruebas-software-upc
-Asignatura de Gestion de Pruebas de Software 7-2023
+Practicas de Gestion de Pruebas de Software 7-2023
