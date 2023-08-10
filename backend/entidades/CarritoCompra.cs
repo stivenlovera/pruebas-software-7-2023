@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace backend.entidades
 {
-    public class CategoriaProducto : Common
+    public class CarritoCompra
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public DateTime Fecha { get; set; }
+        public int UsuarioId { get; set; }
     }
 }
