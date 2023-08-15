@@ -1,0 +1,5 @@
+E:\CUMBRE\pruebas-software-7-2023\backend-unit-test\obj\Debug\net7.0\backen-unit-test.csproj.AssemblyReference.cache
+E:\CUMBRE\pruebas-software-7-2023\backend-unit-test\obj\Debug\net7.0\backen-unit-test.GeneratedMSBuildEditorConfig.editorconfig
+E:\CUMBRE\pruebas-software-7-2023\backend-unit-test\obj\Debug\net7.0\backen-unit-test.AssemblyInfoInputs.cache
+E:\CUMBRE\pruebas-software-7-2023\backend-unit-test\obj\Debug\net7.0\backen-unit-test.AssemblyInfo.cs
+E:\CUMBRE\pruebas-software-7-2023\backend-unit-test\obj\Debug\net7.0\backen-unit-test.csproj.CoreCompileInputs.cache

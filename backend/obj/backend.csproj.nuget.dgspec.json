@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CUMBRE\\pruebas-software-upc\\backend\\backend.csproj": {}
+    "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj": {}
   },
   "projects": {
-    "E:\\CUMBRE\\pruebas-software-upc\\backend\\backend.csproj": {
+    "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CUMBRE\\pruebas-software-upc\\backend\\backend.csproj",
+        "projectUniqueName": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "E:\\CUMBRE\\pruebas-software-upc\\backend\\backend.csproj",
+        "projectPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\alovera\\.nuget\\packages\\",
-        "outputPath": "E:\\CUMBRE\\pruebas-software-upc\\backend\\obj\\",
+        "outputPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alovera\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
