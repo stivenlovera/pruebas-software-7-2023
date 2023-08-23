@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-grid>
+    <ion-row class="ion-justify-content-between">
+      <ion-text>
+        <h4>Categoria</h4>
+      </ion-text>
+
+      <ion-button size="small">Agregar Categoria</ion-button>
+    </ion-row>
+    <br>
+    <ion-row size="12" size-sm>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>1</ion-col>
+          <ion-col>2</ion-col>
+          <ion-col>3</ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <!-- <ion-list>
+        <ion-item *ngFor="let item of ListCategoria">
+          <b>nombre</b>:{{item.nombre}};
+        </ion-item>
+      </ion-list> -->
+    </ion-row>
+  </ion-grid>
+  <app-explore-container name="Tab 2 page"></app-explore-container>
+</ion-content>
