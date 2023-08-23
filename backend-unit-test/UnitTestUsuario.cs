@@ -13,7 +13,13 @@ public class UnitTestUsuario
     [Fact]
     public void Usuarios_Get_Verificar_NotNull()
     {
-        var result = UsuariosServicios.ObtenerTodo<Usuario>();
+        var result = UsuariosServicios.GetAll<Usuario>();
         Assert.NotNull(result);
     }
+    public void Usuarios_Get_Verificar_Colleccion()
+    {
+        var result = UsuariosServicios.GetAll<Usuario>();
+        Assert.(result);
+    }
+    
 }

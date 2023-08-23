@@ -8,6 +8,6 @@ namespace backend.entidades
     public class Producto : Common
     {
         public string Nombre { get; set; }
-        public string CategoriaId { get; set; }
+        public int CategoriaId { get; set; }
     }
 }

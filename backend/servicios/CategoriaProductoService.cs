@@ -2,14 +2,13 @@ using System.Data;
 using backend.connection;
 using backend.entidades;
 using Dapper;
-
 namespace backend.servicios
 {
-    public static class UsuariosServicios
+    public class CategoriaProductoService
     {
         public static IEnumerable<T> GetAll<T>()
         {
-            const string sql = "EXEC SP_usuario;";
+            const string sql = "select * from usuarios";
             return BDManager.GetInstance.GetData<T>(sql);//Dapper
         }
 
@@ -27,42 +26,38 @@ namespace backend.servicios
 
         public static int Store(Usuario usuarios)
         {
-            const string sql = "EXEC SP_usuario_insert @user_name = @user_name, @nombre_completo =  @nombre_completo, @password = @password, @usuario_registro = @usuario_registro, @fecha_registro = @fecha_registro, @estado_registro = @estado_registro;";
+            const string sql = "INSERT INTO [dbo].[USUARIOS]([USER_NAME], [NOMBRE_COMPLETO], [PASSWORD]) VALUES (@user_name, @nombre_completo, @password) ";
 
             var parameters = new DynamicParameters();
             parameters.Add("user_name", usuarios.UserName, DbType.String);
             parameters.Add("nombre_completo", usuarios.NombreCompleto, DbType.String);
             parameters.Add("password", usuarios.Password, DbType.String);
-            parameters.Add("usuario_registro", usuarios.UsuarioRegistro, DbType.String);
-            parameters.Add("fecha_registro", usuarios.FechaRegistro, DbType.DateTime);
-            parameters.Add("estado_registro", usuarios.EstadoRegistro, DbType.Int32);
 
             var result = BDManager.GetInstance.SetData(sql, parameters);
             return result;
         }
-        public static int Update(Usuario usuarios, int id)
+        public static int Update(Usuario usuarios)
         {
-            const string sql = "EXEC SP_usuario_update @user_name = @user_name, @nombre_completo = @nombre_completo, @password = @password, @usuario_registro = @usuario_registro, @fecha_registro =  @fecha_registro, @estado_registro = @estado_registro, @id = @id;";
+            const string sql = "INSERT INTO [dbo].[USUARIOS]([USER_NAME], [NOMBRE_COMPLETO], [PASSWORD]) VALUES (@user_name, @nombre_completo, @password) ";
 
             var parameters = new DynamicParameters();
             parameters.Add("user_name", usuarios.UserName, DbType.String);
             parameters.Add("nombre_completo", usuarios.NombreCompleto, DbType.String);
             parameters.Add("password", usuarios.Password, DbType.String);
-            parameters.Add("usuario_registro", usuarios.UsuarioRegistro, DbType.String);
-            parameters.Add("fecha_registro", usuarios.FechaRegistro, DbType.DateTime);
-            parameters.Add("estado_registro", usuarios.EstadoRegistro, DbType.Int32);
-            parameters.Add("id", id, DbType.Int32);
+
             var result = BDManager.GetInstance.SetData(sql, parameters);
             return result;
         }
-        public static int Delete(int id)
+        public static int Delete(Usuario usuarios)
         {
-            const string sql = "EXEC SP_usaurio_delete @id = @id ";
+            const string sql = "INSERT INTO [dbo].[USUARIOS]([USER_NAME], [NOMBRE_COMPLETO], [PASSWORD]) VALUES (@user_name, @nombre_completo, @password) ";
 
             var parameters = new DynamicParameters();
-            parameters.Add("id", id, DbType.Int32);
-            var result = BDManager.GetInstance.SetData(sql, parameters);
+            parameters.Add("user_name", usuarios.UserName, DbType.String);
+            parameters.Add("nombre_completo", usuarios.NombreCompleto, DbType.String);
+            parameters.Add("password", usuarios.Password, DbType.String);
 
+            var result = BDManager.GetInstance.SetData(sql, parameters);
             return result;
         }
     }

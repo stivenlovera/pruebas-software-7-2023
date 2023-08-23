@@ -6452,19 +6452,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alovera\\.nuget\\packages\\": {}
+    "C:\\Users\\stivenlovera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
+      "projectUniqueName": "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
       "projectName": "backend-unit-test",
-      "projectPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
-      "packagesPath": "C:\\Users\\alovera\\.nuget\\packages\\",
-      "outputPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\obj\\",
+      "projectPath": "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
+      "packagesPath": "C:\\Users\\stivenlovera\\.nuget\\packages\\",
+      "outputPath": "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alovera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stivenlovera\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6478,8 +6478,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj": {
-              "projectPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj"
+            "E:\\cumbre\\pruebas-software-7-2023\\backend\\backend.csproj": {
+              "projectPath": "E:\\cumbre\\pruebas-software-7-2023\\backend\\backend.csproj"
             }
           }
         }
@@ -6531,7 +6531,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "e:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj": {}
+    "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj": {}
   },
   "projects": {
-    "e:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj": {
+    "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
+        "projectUniqueName": "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
         "projectName": "backend-unit-test",
-        "projectPath": "e:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
-        "packagesPath": "C:\\Users\\alovera\\.nuget\\packages\\",
-        "outputPath": "e:\\CUMBRE\\pruebas-software-7-2023\\backend-unit-test\\obj\\",
+        "projectPath": "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\backend-unit-test.csproj",
+        "packagesPath": "C:\\Users\\stivenlovera\\.nuget\\packages\\",
+        "outputPath": "E:\\cumbre\\pruebas-software-7-2023\\backend-unit-test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alovera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stivenlovera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj": {
-                "projectPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj"
+              "E:\\cumbre\\pruebas-software-7-2023\\backend\\backend.csproj": {
+                "projectPath": "E:\\cumbre\\pruebas-software-7-2023\\backend\\backend.csproj"
               }
             }
           }
@@ -81,21 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj": {
+    "E:\\cumbre\\pruebas-software-7-2023\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj",
+        "projectUniqueName": "E:\\cumbre\\pruebas-software-7-2023\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\alovera\\.nuget\\packages\\",
-        "outputPath": "E:\\CUMBRE\\pruebas-software-7-2023\\backend\\obj\\",
+        "projectPath": "E:\\cumbre\\pruebas-software-7-2023\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\stivenlovera\\.nuget\\packages\\",
+        "outputPath": "E:\\cumbre\\pruebas-software-7-2023\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alovera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stivenlovera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,7 +103,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -158,7 +157,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
